@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert AI Research Assistant.\n\nResearch Paper:\n{paper_input}\n\nExplanation Style:\n{style_input}\n\nExplanation Length:\n{length_input}\n\nInstructions:\n- Explain the paper according to the selected explanation style.\n- Use simple language if the style is Beginner-Friendly.\n- Use technical terminology if the style is Technical.\n- Include code examples if the style is Code-Oriented.\n- Include mathematical intuition and equations if the style is Mathematical.\n- Explain the main problem the paper solves.\n- Describe the proposed solution.\n- Explain the model architecture.\n- Discuss the key innovations.\n- Mention the datasets used.\n- Explain the evaluation metrics.\n- Summarize the experimental results.\n- Mention the strengths and limitations.\n- End with a short conclusion and real-world applications.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
